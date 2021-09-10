@@ -946,7 +946,10 @@ body {
   position: relative;
   top: -58px;
 }
-
+.port.tow{
+  position: relative;
+  left: -39px;
+}
 .port.eight {
   left: -38px;
   position: relative;
@@ -1137,6 +1140,67 @@ body.dark {
   }
   
 }
+@media (max-width: 434px){
+  .port.nine {
+    left: 146px !important;
+   
+    top: -113px !important;
+}
+.port.eight {
+  left: -141px !important;
+  
+  top: 92px !important;
+}
+.port.seven {
+  left: 3px !important;
+  top: 154px !important;
+}
+.port.six {
+  left: 147px !important;
+  top: 216px !important;
+}
+.port.five {
+  left: -141px !important;
+  top: 420px !important;
+}
+.port.four {
+  left: 4px !important;
+  top: 482px !important;
+}
+.port.tow {
+  left: -139px !important;
+  top: 743px !important;
+}
+.port.three {
+  top: 537px !important;
+  left: 250px !important;
+}
+.port.tow {
+  left: -139px !important;
+  top: 742px !important;
+  display: none;
+}
+.port.one {
+  left: -142px !important;
+  top: 744px !important;
+}
+.folio{
+  margin-top: -768px;
+  overflow-x: hidden;
+}
+
+}
+
+@media (max-width: 433px){
+  .port.four {
+    left: 3px;
+    top: 67px;
+  }
+  .port.three {
+    top: 121px;
+    left: 250px !important;
+  }
+}
 @media (max-width: 765px) {
   .port.seven {
     left: 2px;
@@ -1160,8 +1224,8 @@ body.dark {
     top: 65px;
   }
   .port.one {
-    left: -38px !important;
-    top: 327px !important;
+    left: -38px;
+    top: 327px ;
   }
   .port.tow {
     left: -99px !important;
