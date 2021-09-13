@@ -1416,7 +1416,7 @@ body.dark {
   font-size: 15px;
 }
 
-.img-footer{
+/* .img-footer{
   background: url(../images/footer-bg.png) no-repeat ;
   padding: 200px 0px;
   opacity: 0.04;
@@ -1429,8 +1429,10 @@ body.dark {
 }
 .itrm-footer img{
   width: 250px;
+} */
+.itrm-footer img{
+  width: 250px;
 }
-
 
 
 
@@ -1462,6 +1464,56 @@ body.dark {
   overflow: hidden;
 }
 .item-img-9-more-work{
+  height: 160px;
+  overflow: hidden;
+}
+.item-img-9-more-work img{
+  width: 100%;
+  height: 160px;
+  transition: all 0.5s ease;
+}
+.item-img-9-more-work img:hover{
+  transform: scale(1.2);
+}
+.item-img-1-more-work{
   height: 260px;
   overflow: hidden;
+  
+}
+.item-img-2-more-work{
+  height: 130px;
+  overflow: hidden;
+  width: 100%;
+}
+.item-img-2-more-work img{
+  transition: all 0.5s ease;
+}
+.item-img-2-more-work img:hover{
+  transform: scale(1.2);
+}
+.item-img-5-more-work{
+  height: 160px;
+  overflow: hidden;
+}
+.item-img-5-more-work img{
+  transition: all 0.5s ease;
+}
+.item-img-5-more-work img:hover{
+  transform: scale(1.2);
+}
+.item-img-5-more-work img{
+  width: 100%;
+}
+.item-img-2-more-work img{
+  height: 160px;
+  width: 100%;
+}
+.item-img-1-more-work img{
+  width: 100%;
+  height: 260px;
+  transition: all 0.5s ease;
+  
+}
+.item-img-1-more-work img:hover{
+  transform: scale(1.2);
 }
