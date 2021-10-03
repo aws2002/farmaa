@@ -12,7 +12,7 @@ const sr = ScrollReveal({
     
 });
 
-sr.reveal(`.sec-3,.sec-4,.sec-2,.sec-5,.about,.ex,.home,.sec-7,.sec-6,.work,.port,.port-2`, {
+sr.reveal(`.sec-3,.sec-4,.sec-2,.sec-5,.about,.ex,.home,.sec-7,.sec-6,.work,.port,.port-2,.exp`, {
     interval: 200
 })
 
@@ -382,4 +382,24 @@ const counters = document.querySelectorAll('.counter');
           }
         
         } 
+        
+
+        $('.exp-owl').owlCarousel({
+            loop:true,
+            margin:0,
+            autoplay:true,
+            responsiveClass:true,
+            
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:2,
+                },
+                1000:{
+                    items:3,
+                }
+            }
+        });
         
