@@ -403,3 +403,34 @@ const counters = document.querySelectorAll('.counter');
             }
         });
         
+
+        const bg=document.querySelector('.bg')
+for(var i=0;i<=50;i++){
+    const blocks=document.createElement('div');
+    blocks.classList.add('block');
+    bg.appendChild(blocks);
+}
+function animateBlocks(){
+    anime({
+        targets:'.block',
+        translateX:function(){
+            return anime.random(-600,600);
+        },
+        translateY:function(){
+            return anime.random(-500,500);
+        },
+        scale:function(){
+            return anime.random(1,5);
+        },
+        easing:'linear',
+        duration:3500,
+        delay:anime.stagger(10),
+        complete:animateBlocks,
+    })
+}
+
+animateBlocks();
+
+
+
+
